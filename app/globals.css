@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
+  color: #111827; /* Tailwind's text-gray-900 */
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility classes */
+.btn-primary {
+  background-color: #3b82f6; /* Tailwind's bg-blue-500 */
+  color: #ffffff; /* Tailwind's text-white */
+  padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb; /* Tailwind's hover:bg-blue-600 */
+}
